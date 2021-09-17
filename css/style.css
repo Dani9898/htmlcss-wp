@@ -10,7 +10,7 @@ body {
 }
 
 #big-container {
-    width: 80%;
+    width: 50%;
     margin: 0 auto;
 }
 
@@ -57,21 +57,23 @@ header a {
 /* jumbotron */
 #jumbotron {
     background-image: url(../img/banner.jpg);
-    height: 820px;
+    height: 395px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     border-radius: 20px;
     margin: 30px 0;
 }
 
 #jumbotron-text {
-    width: 59%;
+    width: 46%;
+    padding-top: 260px;
     color: white;
-    padding: 610px 55px 20px 20px;
+    margin-left: 67px;
 }
 
-#jumbotron-text h2 {
-    font-size: 230%;
+#jumbotron-text h3 {
+    font-size: 130%;
 }
 
 
@@ -81,7 +83,7 @@ h1 {
     font-weight: 600;
 }
 
-p {
+main p {
     color: grey;
 }
 
@@ -105,8 +107,8 @@ aside p {
     float: left;
 }
 
-.img{
-    height: 315px;
+.img {
+    height: 160px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -129,7 +131,9 @@ aside p {
 /* footer */
 footer {
     margin: 20px 0;
-    /* debug */
-    height: 50px;
-    background-color: purple;
+    text-align: center;
+}
+
+footer span {
+    color: red;
 }
