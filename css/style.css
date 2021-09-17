@@ -53,6 +53,7 @@ header a {
     color: grey;
 }
 
+
 /* jumbotron */
 #jumbotron {
     background-image: url(../img/banner.jpg);
@@ -85,21 +86,34 @@ p {
 
 #top-sezione2 {
     margin-bottom: 10px;
-    /* debug */
-    height: 70px;
+
 }
 
 aside {
-    width: 23%;
+    width: 20%;
     float: left;
     margin-bottom: 10px;
-    /* debug */
-    height: 400px;
-    background-color: lightblue;
+}
+
+aside p {
+    margin-top: 10px;
+}
+
+
+.col-sx-img {
+    background-image: url(../img/img-1.jpg) ;
+}
+
+.aside-img{
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
 }
 
 #col-middle {
-    width: 50%;
+    width: 56%;
     margin: 0 2% 10px 2%;
     /* debug */
     height: 400px;
