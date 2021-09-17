@@ -74,6 +74,7 @@ header a {
     font-size: 230%;
 }
 
+
 /* main */
 h1 {
     font-family: 'Montserrat', sans-serif;
@@ -86,7 +87,6 @@ p {
 
 #top-sezione2 {
     margin-bottom: 25px;
-
 }
 
 aside {
@@ -99,6 +99,19 @@ aside p {
     margin-top: 10px;
 }
 
+#col-middle {
+    width: 56%;
+    margin: 0 2% 10px 2%;
+    float: left;
+}
+
+.img{
+    height: 315px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
 
 .col-sx-img {
     background-image: url(../img/img-1.jpg) ;
@@ -107,21 +120,9 @@ aside p {
 .col-dx-img {
     background-image: url(../img/img-3.jpg);
 }
-.aside-img{
-    height: 250px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 20px;
-}
 
-#col-middle {
-    width: 56%;
-    margin: 0 2% 10px 2%;
-    /* debug */
-    height: 400px;
-    background-color: lightblue;
-    float: left;
+.col-middle-img {
+    background-image: url(../img/banner-2.jpg);
 }
 
 
