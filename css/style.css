@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 #big-container {
     width: 80%;
     margin: 0 auto;
@@ -16,35 +20,73 @@
     clear: both;
 } 
 
+.dark-bg {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    height: 100%;
+}
+
+
 /* header */
 header {
     margin-top: 20px;
-    /* debug */
-    height: 100px;
-    background-color: pink;
 }
 
-/* main */
-section {
+header img {
+    border-right: 1px solid #ccc;
+    padding-right: 10px;
+    height: 40px;
+}
+
+header ul {
     margin-top: 20px;
 }
 
-#sezione1 {
-    /* debug */
-    height: 300px;
-    background-color:palegoldenrod;
+header nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 80%;
 }
 
-#sezione2 {
-    /* debug */
-    background-color: rgb(8, 163, 253);
+header a {
+    text-decoration: none;
+    color: grey;
+}
+
+/* jumbotron */
+#jumbotron {
+    background-image: url(../img/banner.jpg);
+    height: 820px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    margin: 30px 0;
+}
+
+#jumbotron-text {
+    width: 59%;
+    color: white;
+    padding: 610px 55px 20px 20px;
+}
+
+#jumbotron-text h2 {
+    font-size: 230%;
+}
+
+/* main */
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+p {
+    color: grey;
 }
 
 #top-sezione2 {
     margin-bottom: 10px;
     /* debug */
     height: 70px;
-    background-color: lightblue;
 }
 
 aside {
@@ -64,6 +106,7 @@ aside {
     background-color: lightblue;
     float: left;
 }
+
 
 /* footer */
 footer {
